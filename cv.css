@@ -8,14 +8,15 @@ body {
 }
 
 .main-container {
-  margin-top: 1vh;
+  margin-top: 0.5vh;
   border: 2vh solid #dadbdf;
   border-radius: 5px;
+  flex-shrink: 0;
 }
 /* background-color: #1f2937; */
 
 .left-side {
-  width: 250px;
+  min-width: 12vw;
   background-color: #1f2937;
   color: #e5e7eb;
   padding-top: 10px;
@@ -24,8 +25,12 @@ body {
   overflow: hidden;
 }
 
+.content-heads {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
 .right-side {
-  width: 560px;
   background-color: rgb(229, 255, 235);
   color: #1f2937;
   padding: 45px;
