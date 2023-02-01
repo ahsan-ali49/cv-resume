@@ -2,8 +2,17 @@ body {
   margin: 0px;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
 }
+
+.main-container {
+  margin-top: 1vh;
+  border: 2vh solid #dadbdf;
+  border-radius: 5px;
+}
+/* background-color: #1f2937; */
 
 .left-side {
   width: 250px;
@@ -11,18 +20,17 @@ body {
   color: #e5e7eb;
   padding-top: 10px;
   padding-bottom: 0px;
-  height: 98.9vh;
   padding-left: 50px;
   overflow: hidden;
 }
 
 .right-side {
-  width: 550px;
-  background-color: #e5e7eb;
+  width: 560px;
+  background-color: rgb(229, 255, 235);
   color: #1f2937;
   padding: 45px;
   padding-bottom: 0px;
-  height: 95.2vh;
+  height: 90vh;
   overflow: hidden;
 }
 
